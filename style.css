@@ -1,0 +1,37 @@
+/* Website styles */
+
+@font-face{
+  font-family: 'Earwig Factory';
+  src:
+      url('fonts/earwig.ttf');
+  src:
+      url('earwig_factory_rg.otf');
+
+}
+
+*{
+  font-size:100%;
+}
+
+body {
+    background-color: red;
+    color: WhiteSmoke;
+}
+
+h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Earwig Factory';
+      src:
+          url('fonts/earwig.ttf');
+          format('opentype');
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+p{
+  font-size: 18px;
+}
