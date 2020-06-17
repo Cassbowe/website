@@ -26,11 +26,24 @@ body {
     background-repeat: no-repeat;
 }
 
-h1{
-    font-family: cursive;
+.banner{
+  height: 300px;
+  width: 100%;
+  image-align: center;
+  margin-left: 15%;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-image: url(images/banner.png)
+}
+
+.centered-banner{
+    -webkit-text-stroke: 1px black;
     font-size: 60px;
-    text-align: center;
-    margin-bottom: 100px;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .ready{
@@ -120,10 +133,4 @@ h2{
   margin-top: 25px;
   margin-left: 6px;
   max-width: 700px;
-}
-
-.footer{
-  font-size: 14px;
-  position: absolute;
-  bottom: 0;
 }
